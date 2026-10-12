@@ -18,9 +18,12 @@ Experimental comparison of the PAC (realizable) and Agnostic PAC learning framew
 1. Data generation (realizable and noisy labels)
 2. Implementation of ERM
 3. Performance evaluation (empirical vs. true error)
-4. Experimental verification of PAC learning (influence of $\varepsilon$, $\delta$, $\theta$)
-5. From PAC to Agnostic PAC (effect of the noise level $\eta$)
-6. Conclusion
+4. Experimental verification of PAC learning: Monte Carlo vs. exact failure probability, comparison with the finite-class bound $\log(|\mathcal H|/\delta)/\varepsilon$, influence of $\varepsilon$, $\delta$, $\theta$, choice of ERM rule
+5. From PAC to Agnostic PAC with label noise (effect of the noise level $\eta$)
+6. Agnostic PAC with a target outside the class (approximation vs. estimation error)
+7. Conclusion
+
+Every experiment uses its own seeded random generator, so the notebook gives the same results whatever the order the cells are run in.
 
 ## Requirements
 
